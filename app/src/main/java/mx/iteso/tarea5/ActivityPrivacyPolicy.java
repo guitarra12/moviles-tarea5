@@ -24,7 +24,7 @@ public class ActivityPrivacyPolicy extends AppCompatActivity implements  DialogI
         webSettings.setJavaScriptEnabled(true);
         webView.addJavascriptInterface(new WebAppInterface(this), "Android");
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("file:///android_assets/aviso_privacidad.html");
+        webView.loadUrl("file:///android_asset/aviso.html");
     }
 
     @Override
